@@ -12,17 +12,13 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
 export const metadata: Metadata = {
   title: "ReadyMealz",
-  description: "Food Subscription Platform",
+  description: "Food-Subscription Platform",
 };
-
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{children: React.ReactNode}>) {
   return (
     <html lang="en">
       <body
@@ -30,7 +26,6 @@ export default function RootLayout({
       >
         {/*Navbar always on top */}
         <Navbar />
-
         {/*Page Content */}
         <main>{children}</main>
         <Footer/>
