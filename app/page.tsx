@@ -212,9 +212,6 @@ export default function Home() {
         🍱 <strong>New:</strong> Explore all platform features and screens –{" "}
         <a href="#" className="underline font-semibold">View Feature Tour</a>
       </div>
-
-    
-
       {/* ── HERO ── */}
       <section className="max-w-7xl mx-auto px-4 py-10 sm:py-14 lg:py-20 grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center">
         {/* Text — shows below image on mobile */}
